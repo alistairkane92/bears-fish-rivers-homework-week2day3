@@ -17,5 +17,4 @@ class TestFish < MiniTest::Test
     def test_fish_name
         assert_equal("Nemo", @fish1.fish_name)
     end
-
 end

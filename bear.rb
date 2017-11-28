@@ -21,7 +21,7 @@ class Bear
     end
 
     def roar
-        puts "Meow"
+        return "Meow"
     end
 
 end

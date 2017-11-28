@@ -17,7 +17,7 @@ class River
     end
 
     def add_all_fish_to_river(fish_1, fish_2, fish_3)
-        @contained_fish<< fish_1
+        @contained_fish << fish_1
         @contained_fish << fish_2
         @contained_fish << fish_3
     end

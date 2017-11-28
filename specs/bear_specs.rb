@@ -30,7 +30,6 @@ class BearTest  < MiniTest::Test
     end
 
     def test_take_fish_and_remove
-
         @amazon.add_all_fish_to_river(@fish1, @fish2, @fish3)
         @fuzzy.take_fish(@amazon.contained_fish, @stomach)
         @amazon.contained_fish.pop(1)
@@ -43,6 +42,7 @@ class BearTest  < MiniTest::Test
         @fuzzy.roar
     end
 
-
-
+    def test_bear_roar
+        assert_equal("Meow", @fuzzy.roar)
+    end
 end

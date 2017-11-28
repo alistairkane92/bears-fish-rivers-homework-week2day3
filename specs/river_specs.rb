@@ -4,7 +4,6 @@ require 'minitest/rg'
 require_relative '../river'
 require_relative '../fish'
 
-
 class RiverTest < MiniTest::Test
 
     def setup
@@ -32,7 +31,4 @@ class RiverTest < MiniTest::Test
 
         assert_equal(3, @amazon.count_fish)
     end
-
-
-
 end
